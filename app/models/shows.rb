@@ -8,4 +8,7 @@ class Show < ActiveRecord::Base
     Show.find_by(maximum(:rating))
   end
 
+  def self.lowest_rating
+    
+  end
 end
