@@ -16,4 +16,6 @@ class Show < ActiveRecord::Base
     Show.where("rating = ?", Show.minimum(:rating))[0]
   end
 
+  
+
 end
